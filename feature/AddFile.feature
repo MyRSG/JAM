@@ -28,7 +28,7 @@ Feature: Add File
       | adddocx.docx | addFile | docx   | Files    |
       | addpdf.pdf   | addFile | pdf    | Files    |
 
-  @ORPHAN
+  @CHAZ-1 @OPEN
   Scenario Outline: Admin add a pdf non-convertible file
     Given user 'Admin' login
     And there is a teamsite <teamsite>
