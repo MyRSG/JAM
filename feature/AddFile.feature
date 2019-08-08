@@ -15,12 +15,6 @@ Feature: Add File
     And there is no file <file> in folder <folder>
     When user 'Admin' add file <file> into folder <folder>
     Then file <file> is in folder <folder>
-    And file <file> version is '0.1'
-    And file <file> type is StaticContent
-    And file <file> format is <format>
-    And file <file> has a thumbnail
-    And file <file> has a previewImage
-    And file <file> has a PDF
     
     Examples:
       | file         | folder  | format | teamsite |
