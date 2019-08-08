@@ -6,7 +6,7 @@ Feature: Add File
   We don't consider permission in this feature,
   permission should be in feature permission.
 
-  @CHAZ-1 @OPEN
+  @CHAZ-1 @OPEN @MANUAL
   Scenario Outline: Admin add a pdf convertible file
     Given user 'Admin' login
     And there is a teamsite <teamsite>
